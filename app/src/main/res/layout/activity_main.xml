@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Navigation Data Parcel Issue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Tap the button to trigger the crash"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch Destination (CRASH)" />
+</LinearLayout>
