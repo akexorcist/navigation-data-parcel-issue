@@ -1,6 +1,6 @@
 # NavData Parcel - Parcelable Read/Write Mismatch Bug Reproduction
 
-Minimal Android project to reproduce a Parcelable deserialization crash caused by a read/write mismatch.
+Android project to reproduce a Parcelable deserialization crash caused by a read/write mismatch.
 
 ## Bug Summary
 
